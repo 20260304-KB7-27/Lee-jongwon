@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <style>
+      h1 {
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World...!</h1>
+    <!--
+    <script>태그의 위치에 따른 차이:
+        1. head에 작성할 경우
+        - HTML 파싱이 되던 중 스크립트를 먼저 실행
+        ->DOM요소가 생성되기전에 실행되어 DOM요소 조작시 문제가 생길 수 있음
+        => 따라서 주로 전역 설정이나 유틸리티 함수에 사용
+
+        2. body에 작성할 경우
+        - HTML이 전부 파싱된 후 스크립트 실행
+        -> DOM요소에 안전하게 접근 가능
+    -->
+    <script>
+      alert('Hello JavaScript...!');
+    </script>
+  </body>
+</html>
