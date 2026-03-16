@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+    (Content Delivery Network)
+    CDN : 사용자랑 가까운 서버에서 콘텐츠를 제공하여 웹사이트 로딩을 빠르게 도와주는 네트워크
+    -->
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <h2>{{message}}</h2>
+    </div>
+
+    <script>
+      let model = { message: 'Hello Vue3' };
+
+      // vue 어플리케이션 생성
+      let vm = Vue.createApp({
+        name: 'App',
+
+        data() {
+          return model;
+        },
+      });
+
+      // 생성한 Vue 어플리케이션을 #app요소에 마운트(연결)
+      vm.mount('#app');
+    </script>
+  </body>
+</html>

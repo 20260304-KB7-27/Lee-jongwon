@@ -21,3 +21,17 @@ if (fs.existsSync(savePath)) {
 //   }
 //   console.log(data);
 // });
+
+// //파일삭제
+// if (!fs.existsSync(savePath)) {
+//   // 파일이 없다면
+//   console.log('file does not exist');
+// } else {
+//   // 파일이 있다면
+//   fs.unlink(savePath, (err) => {
+//     if (err) {
+//       return console.error(err);
+//     }
+//     console.log('file deleted');
+//   });
+// }

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>클로저 예제</title>
+  </head>
+  <body>
+    <h1>클로저를 이용한 클릭 카운터</h1>
+    <button id="btn">클릭</button>
+    <p id="text">버튼을 눌러보세요.</p>
+
+    <script>
+      function createClickHandler() {
+        let count = 0;
+
+        // return function () {
+        //   count++;
+        //   document.getElementById('text').textContent =
+        //     `버튼을 ${count}번 클릭했습니다.`;
+        // };
+
+        // 클로저를 사용했을 때 장점
+        // 실수로 다른 코드에 의해 특정 변수 (count)를 수정할 가능성이 사라짐
+
+        return {
+          increase: function () {
+            count++;
+          },
+          decrease: function () {
+            count--;
+          },
+          getCount: function () {
+            count = 0;
+          },
+        };
+      }
+
+      const button = document.getElementById('btn');
+
+      button.addEventListener('click', createClickHandler());
+    </script>
+  </body>
+</html>
