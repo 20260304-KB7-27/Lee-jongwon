@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue 3 연습용 Composition</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>취미생활</h2>
+      <input type="checkbox" value="A" v-model="hobby" /> 운동
+      <input type="checkbox" value="B" v-model="hobby" /> 독서
+      <input type="checkbox" value="C" v-model="hobby" /> 음악
+      <input type="checkbox" value="D" v-model="hobby" /> 댄스
+      <input type="checkbox" value="E" v-model="hobby" /> 역사
+      <br />
+      <h2>상품 분류 선택</h2>
+      <select v-model="category">
+        <option value="C01">음식</option>
+        <option vlaue="C02">레저</option>
+      </select>
+
+      <div>선택한 취미 : {{hobby.join(',')}}</div>
+      <div>선택한 상품 분류 : {{category}}</div>
+    </div>
+
+    <script>
+      const { createApp, ref } = Vue;
+
+      createApp({
+        setup() {
+          const hobby = ref([]);
+          const category = ref('');
+          return {
+            hobby,
+            category,
+          };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>
