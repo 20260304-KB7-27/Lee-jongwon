@@ -73,6 +73,21 @@
       "todo": "윗몸일으키기",
       "desc": "너무 빠르지 않게",
       "id": "dRS0fRYM0gA"
+    },
+    {
+      "todo": "윗몸일으키기",
+      "desc": "너무 빠르지 않게",
+      "id": "4ZdGw1v2rgg"
+    },
+    {
+      "todo": "윗몸일으키기",
+      "desc": "너무 빠르지 않게",
+      "id": "PcGL-veEB0o"
+    },
+    {
+      "todo": "윗몸일으키기",
+      "desc": "너무 빠르지 않게",
+      "id": "4tDW2rMzlXo"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

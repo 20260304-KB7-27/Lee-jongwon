@@ -1,5 +1,5 @@
-// import axios from 'axios';
-import axios from '@/utils/axios';
+import axios from 'axios';
+// import axios from '@/utils/axios';
 import { ref } from 'vue';
 
 /*

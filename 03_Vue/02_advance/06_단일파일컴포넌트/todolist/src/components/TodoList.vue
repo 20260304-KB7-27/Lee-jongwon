@@ -15,10 +15,10 @@
 import TodoListItem from './TodoListItem.vue';
 
 const props = defineProps({
-  todolist: Array,
+  todolist: Array, //부모가 보내준거 받기위함
 });
 
-const emit = defineEmits(['toggle', 'delete']);
+const emit = defineEmits(['toggle', 'delete']); //부모에게 보내기 위해 설정
 
 const toggleCompleted = (id) => {
   emit('toggle', id);

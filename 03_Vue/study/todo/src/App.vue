@@ -1,22 +1,17 @@
 <template>
-  <h1>:: TodoList App</h1>
+  <h1>::todoList</h1>
 
-  <!--입력 컴포넌트-->
   <InputTodo @add="addTodo"></InputTodo>
 
-  <!--목록 컴포넌트-->
-  <!-- : 부모가 자식에게 줄때-->
-  <!-- @ 자식에게 받아올때-->
   <TodoList
     :todolist="todolist"
-    @toggle="toggleCompleted"
     @delete="deleteTodo"
+    @toggle="toggleCompleted"
   ></TodoList>
 </template>
-
 <script setup>
-import InputTodo from './components/InputTodo.vue';
-import TodoList from './components/TodoList.vue';
+import TodoList from './components/todoList.vue';
+import InputTodo from './components/inputTodo.vue';
 import { ref } from 'vue';
 
 let ts = new Date().getTime();
@@ -28,21 +23,18 @@ const todolist = ref([
   { id: ts + 3, todo: 'Vue 원고 집필', completed: false },
 ]);
 
-//todo 삭제
+const addTodo = (newTodo) => {
+  todolist.value.push(newTodo);
+};
+
 const deleteTodo = (id) => {
   let index = todolist.value.findIndex((item) => id === item.id);
   todolist.value.splice(index, 1);
 };
 
-//완료상태 토글 기능
 const toggleCompleted = (id) => {
   let index = todolist.value.findIndex((item) => id === item.id);
   todolist.value[index].completed = !todolist.value[index].completed;
-};
-
-//todo 추가 기능
-const addTodo = (newTodo) => {
-  todolist.value.push(newTodo);
 };
 </script>
 
