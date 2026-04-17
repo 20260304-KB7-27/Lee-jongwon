@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/04_JAVA.iml" filepath="$PROJECT_DIR$/.idea/04_JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch01_variable-type-operator/ch01_variable-type-operator.iml" filepath="$PROJECT_DIR$/ch01_variable-type-operator/ch01_variable-type-operator.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02-conditional-loop-reference/ch02-conditional-loop-reference.iml" filepath="$PROJECT_DIR$/ch02-conditional-loop-reference/ch02-conditional-loop-reference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-class/ch03-class.iml" filepath="$PROJECT_DIR$/ch03-class/ch03-class.iml" />
     </modules>
   </component>
 </project>
