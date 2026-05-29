@@ -8,7 +8,7 @@
  - 가장 일반적으로 사용되는 JOIN (INNER JOIN = JOIN)
  */
 
-use employees
+use employees;
 
 -- 직원 정보
 select emp_no, first_name, last_name
