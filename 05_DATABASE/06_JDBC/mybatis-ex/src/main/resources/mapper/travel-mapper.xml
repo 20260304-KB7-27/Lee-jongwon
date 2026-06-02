@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+Mapper.xml
+- 실행시킬 SQL 구문을 작성 (JAVA 코드랑 분리)
+- SqlSessionFactory가 mybatis-config에 등록된 mapper를 읽음
+-->
+<mapper namespace="org.scoula.travel.dao.TravelDao">
+
+    <!--
+    namespace : dao 인터페이스의 전체 경로와 일치시키는 것이 관례
+    id : java 코드에서 호출할 SQL의 식별자
+    resultType : 반환 타입
+    parameterType : java에서 전달 받은 파라미터 클래스
+    -->
+    <select id="getTotalCount" resultType="int">
+        select count(*) from tbl_travel
+    </select>
+
+    <select id="getDistricts" resultType="String">
+        select DISTINCT district
+        from tbl_travel
+        order by district;
+    </select>
+</mapper>
