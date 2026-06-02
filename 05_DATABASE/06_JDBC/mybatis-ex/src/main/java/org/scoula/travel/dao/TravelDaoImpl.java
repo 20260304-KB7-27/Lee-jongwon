@@ -1,10 +1,12 @@
 package org.scoula.travel.dao;
 
+import org.apache.ibatis.session.SqlSession;
 import org.scoula.travel.database.MyBatisConfig;
 import org.scoula.travel.domain.TravelVO;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Consumer;
 
 /*
 *  SqlSession 메서드
@@ -42,7 +44,9 @@ public class TravelDaoImpl implements TravelDao {
 
     @Override
     public List<TravelVO> getTravelsByDistrict(String district) {
-        return List.of();
+
+        return MyBatisConfig.getSqlSession()
+                .selectList(NAMESPACE + "getTravelsByDistrict", district);
     }
 
     @Override
@@ -50,18 +54,30 @@ public class TravelDaoImpl implements TravelDao {
         return Optional.empty();
     }
 
+    /*
+    * 트랜젝션 처리 메서드
+    * */
+    private void transaction(Consumer<SqlSession> action){
+        try(SqlSession session = MyBatisConfig.getSqlSession()){
+            action.accept(session);
+            session.commit(); //db에 반영
+        }
+    }
+
     @Override
     public void insert(TravelVO travel) {
+
+        transaction(session -> session.insert(NAMESPACE + "insert", travel));
 
     }
 
     @Override
     public void update(TravelVO travel) {
-
+        transaction(session -> session.update(NAMESPACE + "update", travel));
     }
 
     @Override
     public void remove(Long no) {
-
+        transaction(session -> session.delete(NAMESPACE + "remove", no));
     }
 }

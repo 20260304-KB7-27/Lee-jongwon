@@ -27,6 +27,10 @@ properties -> settings -> typealiases -> enviroments -> mappers
         <setting name="useGeneratedKeys" value="false" />
     </settings>
 
+    <typeAliases>
+        <typeAlias type="org.scoula.travel.domain.TravelVO" alias="TravelVO"/>
+    </typeAliases>
+
     <!--
     DB 연결 환경설정
     -->

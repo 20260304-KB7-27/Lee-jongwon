@@ -24,4 +24,44 @@ Mapper.xml
         from tbl_travel
         order by district;
     </select>
+
+    <!--
+    특정 지역의 여행지 목록 조회
+    resultType : 사용자정의 타입으로 하고 싶을때는 경로를 전부 작성해 주어야함
+    -->
+    <select id="getTravelsByDistrict" resultType="TravelVO">
+        select *
+        from tbl_travel
+        where district = #{district}
+        order by title;
+    </select>
+
+    <!--
+    Insert
+    - parameterType : TravelVO 객체의 getter를 이용해서 가져옴
+    -->
+    <insert id="insert" parameterType="TravelVO">
+        insert into tbl_travel (district, title, description, address, phone)
+        values (#{district}, #{title}, #{description}, #{address}, #{phone})
+    </insert>
+
+    <update id="update" parameterType="TravelVO">
+        <![CDATA[
+        UPDATE tbl_travel
+        SET district = #{district},
+            title = #{title},
+            description = #{description},
+            address = #{address},
+            phone = #{phone}
+        WHERE no = #{no}
+        ]]>
+    </update>
+
+    <delete id="remove">
+        <![CDATA[
+        DELETE
+        FROM tbl_travel
+        WHERE no = #{no}
+        ]]>
+    </delete>
 </mapper>
