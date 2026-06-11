@@ -1,0 +1,28 @@
+package org.scoula.ex05.domain;
+
+public class Member {
+    public Member(String name, String userid) {
+        this.name = name;
+        this.userid = userid;
+    }
+
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    private String name;
+    private String userid;
+
+}
