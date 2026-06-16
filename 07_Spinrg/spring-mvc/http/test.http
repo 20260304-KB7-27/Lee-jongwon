@@ -1,0 +1,11 @@
+### ex01 객체 전달 예제
+GET http://localhost:8080/json/ex01
+
+###
+POST http://localhost:8080/json/ex02
+content-type: application/json
+
+{
+  "id": "user",
+  "password": "1234"
+}
