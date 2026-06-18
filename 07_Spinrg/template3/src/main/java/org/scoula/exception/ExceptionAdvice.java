@@ -21,9 +21,7 @@ public class ExceptionAdvice {
 
     @ExceptionHandler(NoHandlerFoundException.class)
     public String exceptionHandle2(NoHandlerFoundException e, Model model, HttpServletRequest request) {
-
         model.addAttribute("uri", request.getRequestURI());
-
         return "custom404";
     }
 

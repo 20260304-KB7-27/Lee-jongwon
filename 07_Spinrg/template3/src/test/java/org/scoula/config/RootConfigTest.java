@@ -1,6 +1,7 @@
 package org.scoula.config;
 
 import com.zaxxer.hikari.HikariDataSource;
+import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = {RootConfig.class})
 @Log4j2
@@ -26,6 +28,7 @@ class RootConfigTest {
 
     @Test
     public void testPool() throws SQLException {
+
         HikariDataSource hikariDataSource = (HikariDataSource) dataSource;
         var pool = hikariDataSource.getHikariPoolMXBean();
 
@@ -33,13 +36,13 @@ class RootConfigTest {
         int maxPool = hikariDataSource.getMaximumPoolSize();
         long timeoutMs = hikariDataSource.getConnectionTimeout();
 
-        log.info("minIdle : " +  minIdle);
-        log.info("maxPool : " +  maxPool);
-        log.info("timeoutMs : " +  timeoutMs);
+        log.info("minIdle : {}", minIdle);
+        log.info("maxPool : {}", maxPool);
+        log.info("timeoutMs : {}", timeoutMs);
 
-        log.info("[시작] total=" + pool.getTotalConnections() // 총 Connection 객수
-                + ", active=" + pool.getActiveConnections() // 사용중인 Connection 갯수
-                + ", idle=" + pool.getIdleConnections()); // 대기중인 Connection 갯수
+        log.info("[시작] total=" + pool.getTotalConnections() // 총 Connection 갯수
+                + ", active=" + pool.getActiveConnections()  // 사용중인 Connection 갯수
+                + ", idle=" + pool.getIdleConnections());    // 대기중인 Connection 갯수
 
         List<Connection> held = new ArrayList<>();
         for (int i = 1; i <= maxPool; i++) {
@@ -53,4 +56,5 @@ class RootConfigTest {
         log.info("[최대 도달] total=" + pool.getTotalConnections()
                 + " (설정한 maximumPoolSize=" + maxPool + " 와 같아야 함)");
     }
+
 }
