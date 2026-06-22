@@ -3,12 +3,18 @@ package org.scoula.board.controller;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.scoula.board.domain.BoardAttachmentVO;
 import org.scoula.board.dto.BoardDTO;
 import org.scoula.board.service.BoardService;
+import org.scoula.utils.UploadFiles;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.UnsupportedEncodingException;
 
 @Controller
 @Slf4j
@@ -92,5 +98,19 @@ public class BoardController {
         service.delete(no);
 
         return "redirect:/board/list";
+    }
+
+    @GetMapping("/download/{no}")
+    @ResponseBody // view 반환이 아닌 데이터 전달 핸들러임
+    public void download(@PathVariable Long no, HttpServletResponse response) throws UnsupportedEncodingException {
+
+        // DB 파일 경로 가져오기
+        BoardAttachmentVO attach = service.getAttachment(no);
+
+        // 파일 객체 만들기
+        File file = new File(attach.getPath());
+
+        // download 메소드
+        UploadFiles.download(response, file, attach.getFilename());
     }
 }
