@@ -50,7 +50,13 @@
 <script setup>
 import { reactive, ref } from 'vue';
 import { computed } from 'vue';
+import { useAuthStore } from '@/stores/auth';
+import { useRouter } from 'vue-router';
 
+const auth = useAuthStore();
+const router = useRouter();
+
+// 폼에 입력되는 데이터
 const member = reactive({
   username: '',
   password: '',
@@ -58,6 +64,16 @@ const member = reactive({
 
 const error = ref('');
 const disableSubmit = computed(() => !(member.username && member.password));
+
+const login = async () => {
+  try {
+    await auth.login(member);
+    router.push('/'); // 홈페이지로 이동하기
+  } catch (e) {
+    console.log(`에러=====`, e);
+    error.value = e.response.data; // 에러 메시지 표시
+  }
+};
 </script>
 
 <style scoped></style>
