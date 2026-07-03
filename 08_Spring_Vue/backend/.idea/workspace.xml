@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="0701">
+    <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="0702">
       <change beforePath="$PROJECT_DIR$/../../05_DATABASE/02_SQL기본/lecture/03_WHERE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_DATABASE/02_SQL기본/lecture/03_WHERE.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/advanced/01_user.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/advanced/02_Operator.js" beforeDir="false" />
@@ -13,22 +13,10 @@
       <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/basic/01.Mangodb_기본.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/mybatis-ex/src/main/java/org/scoula/travel/dao/TravelDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/mybatis-ex/src/main/java/org/scoula/travel/dao/TravelDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../05_DATABASE/trevelapp/src/main/java/org/scoula/travel/dao/TravelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_DATABASE/trevelapp/src/main/java/org/scoula/travel/dao/TravelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberJoinDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberJoinDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/scoula/member/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/scoula/member/mapper/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/BoardListPage--bwlt_LY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/ChangePasswordPage-DH2iZpoU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/GalleryListPage-Ba-kl6aH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/JoinPage-CjVKUD9B.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/LoginPage-Dahs-sX5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/ProfilePage-DjYmEzVf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/TravelListPage-Bpf4DcqG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/index-Cjyw8muk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/utils/UploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/utils/UploadFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,6 +414,7 @@
       <workItem from="1783036988298" duration="477000" />
       <workItem from="1783041906103" duration="12000" />
       <workItem from="1783051240395" duration="669000" />
+      <workItem from="1783051931393" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="0701">
       <option name="closed" value="true" />
@@ -435,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782887649783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0702">
+      <option name="closed" value="true" />
+      <created>1783051951894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783051951894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,6 +440,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0701" />
-    <option name="LAST_COMMIT_MESSAGE" value="0701" />
+    <MESSAGE value="0702" />
+    <option name="LAST_COMMIT_MESSAGE" value="0702" />
   </component>
 </project>
