@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="0701">
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/02_SQL기본/lecture/03_WHERE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_DATABASE/02_SQL기본/lecture/03_WHERE.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/advanced/01_user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/advanced/02_Operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/advanced/02_shopdb_setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/advanced/03_Numbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/07_mongo/basic/01.Mangodb_기본.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/mybatis-ex/src/main/java/org/scoula/travel/dao/TravelDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_DATABASE/06_JDBC/mybatis-ex/src/main/java/org/scoula/travel/dao/TravelDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_DATABASE/trevelapp/src/main/java/org/scoula/travel/dao/TravelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_DATABASE/trevelapp/src/main/java/org/scoula/travel/dao/TravelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberJoinDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/dto/MemberJoinDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/mapper/MemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/service/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/scoula/member/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/scoula/member/mapper/MemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/BoardListPage--bwlt_LY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/ChangePasswordPage-DH2iZpoU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/GalleryListPage-Ba-kl6aH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/JoinPage-CjVKUD9B.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/LoginPage-Dahs-sX5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/ProfilePage-DjYmEzVf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/TravelListPage-Bpf4DcqG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/index-Cjyw8muk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="MyBatisMapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ohgiraffers-bear&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/20260304-KB7-27/Lee-jongwon.git&quot;,
+    &quot;accountId&quot;: &quot;56533f08-ce68-465d-ba5c-4220bc9e44f8&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.8.13/9259dced7b1cc161a8d5feba183f6561e65d9dfe/spring-security-web-5.8.13-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.37/c0dd07c3cea4a1c4d2333a11a07f707cc3819aea/spring-beans-5.3.37-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3Fc67KVeo1769fNTFQhoBNs0vQf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build backend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build security-form.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build security-jwt.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JwtProcessorTest.generateToken.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SecurityConfigTest.passwordEncoder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserDetailsMapperTest.get.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.backend [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.security-jwt [build].executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | 권한 문제 테스트 (인가문제).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | 성공.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.1181.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/KB/fullstack/08_Spring_Vue/backend/src/main/webapp/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.scoula.member.dto" />
+      <recent name="org.scoula.security.util" />
+      <recent name="org.scoula.security.account.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\KB\fullstack\08_Spring_Vue\backend\src\main\webapp\resources" />
+      <recent name="D:\KB\fullstack\08_Spring_Vue\backend\src\main\resources\org\scoula" />
+      <recent name="D:\KB\fullstack\08_Spring_Vue\backend\src\main\java\org\scoula" />
+      <recent name="D:\KB\fullstack\08_Spring_Vue\backend\src\main\java\org\scoula\exception" />
+      <recent name="C:\bear\01_Lecture_Source\07_Spring\security-form\src\main\webapp\WEB-INF\views\security" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.scoula.security.util" />
+      <recent name="org.scoula.security.account.mapper" />
+      <recent name="org.scoula.security.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.scoula.config" />
+      <recent name="org.scoula.security.handler" />
+      <recent name="org.scoula.security.account.domain" />
+      <recent name="org.scoula.security.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Tomcat 9.0.1181" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.1181">
+    <configuration name="backend [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="backend [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | 권한 문제 테스트 (인가문제)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="권한 문제 테스트 (인가문제)" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" index="8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.1181" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1181" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/swagger-ui.html" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.scoula : backend-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="10913876-9d14-4afa-b0b4-d874752b646a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60496" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.scoula : security-form-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : org.scoula : security-jwt-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : org.scoula : backend-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.backend [clean]" />
+      <item itemvalue="Gradle.backend [build]" />
+      <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" />
+      <item itemvalue="HTTP Request.logintest | 권한 문제 테스트 (인가문제)" />
+      <item itemvalue="HTTP Request.logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.1181" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.backend [clean]" />
+        <item itemvalue="Gradle.backend [build]" />
+        <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" />
+        <item itemvalue="HTTP Request.logintest | 권한 문제 테스트 (인가문제)" />
+        <item itemvalue="HTTP Request.logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="" />
+      <created>1782361842923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782361842923</updated>
+      <workItem from="1782361844887" duration="7326000" />
+      <workItem from="1782432177695" duration="302000" />
+      <workItem from="1782438496895" duration="7569000" />
+      <workItem from="1782703614169" duration="2798000" />
+      <workItem from="1782708360486" duration="7968000" />
+      <workItem from="1782790422214" duration="14277000" />
+      <workItem from="1782864586746" duration="1763000" />
+      <workItem from="1782879265423" duration="8469000" />
+      <workItem from="1782954305669" duration="21000" />
+      <workItem from="1782965529002" duration="25000" />
+      <workItem from="1782965577621" duration="12716000" />
+      <workItem from="1783036988298" duration="477000" />
+      <workItem from="1783041906103" duration="12000" />
+      <workItem from="1783051240395" duration="669000" />
+    </task>
+    <task id="LOCAL-00001" summary="0701">
+      <option name="closed" value="true" />
+      <created>1782887649783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782887649783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0701" />
+    <option name="LAST_COMMIT_MESSAGE" value="0701" />
+  </component>
+</project>
